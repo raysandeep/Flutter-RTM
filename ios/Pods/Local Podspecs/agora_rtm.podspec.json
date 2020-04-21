@@ -1,0 +1,30 @@
+{
+  "name": "agora_rtm",
+  "version": "0.9.10",
+  "summary": "A new flutter plugin project.",
+  "description": "Flutter plugin for Agora RTM SDK.",
+  "homepage": "https://docs.agora.io",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Agora": "developer@agora.io"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "AgoraRtm_iOS": [
+      "1.1.0"
+    ]
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "8.0"
+  }
+}

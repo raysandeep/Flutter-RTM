@@ -1,0 +1,29 @@
+PODS:
+  - agora_rtm (0.9.10):
+    - AgoraRtm_iOS (= 1.1.0)
+    - Flutter
+  - AgoraRtm_iOS (1.1.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - agora_rtm (from `.symlinks/plugins/agora_rtm/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtm_iOS
+
+EXTERNAL SOURCES:
+  agora_rtm:
+    :path: ".symlinks/plugins/agora_rtm/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  agora_rtm: 05ca0fa31dc73b088207a93a6ac2d37c3916f923
+  AgoraRtm_iOS: 9192a2c904b2171614ab0b0886f1bee126313baf
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.9.0

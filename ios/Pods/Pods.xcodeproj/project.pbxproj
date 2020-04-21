@@ -1,0 +1,1063 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		C749B96AD7CBE862709769C59C7DF18E /* AgoraRtm_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3D84E124B699E08ACDD84DC4828523EA /* Build configuration list for PBXAggregateTarget "AgoraRtm_iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AgoraRtm_iOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3DA403FB11CEAC59F04EBBC5C45CF568 /* AgoraRtmPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A364D77B29317328F51AED0F9484D68 /* AgoraRtmPlugin.m */; };
+		40C6A08006924454F13BF30AAC822A88 /* RTMChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C67EB2AD4AF2ACA189C73075B488190 /* RTMChannel.m */; };
+		9483D47FF6CCBAD245ABF0492FDEDDDC /* RTMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E3B08D520BC83E5E2CD246484B6120 /* RTMClient.m */; };
+		97C2514870F0D468AD86C4AA2A5C3677 /* agora_rtm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6FF7AC1B440BF716CD5BD529527659 /* agora_rtm-dummy.m */; };
+		D39FB8D8FAA2AFA9E35632C0EEE747D5 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */; };
+		E5348CD7C0D4651170CCE7A6DEE45576 /* AgoraRtmPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 14084F87B3F6237D59A112A1DFE050AB /* AgoraRtmPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE8D8E1AB0F1E42B20B26E0B16D68AD8 /* RTMChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = CC175914011DA41D8A2CA3E4641BEA4D /* RTMChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7E4C5665B2B93EF3582D62B081D0F9A /* RTMClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCCAD1C88039B40B48C00F9F03E4DAC /* RTMClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1301E3B96230160D3F118C202ACEC216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C749B96AD7CBE862709769C59C7DF18E;
+			remoteInfo = AgoraRtm_iOS;
+		};
+		97057319E9E5B9A396FCA4F2EDFD4D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C749B96AD7CBE862709769C59C7DF18E;
+			remoteInfo = AgoraRtm_iOS;
+		};
+		D55EE32341356720D32691D51BD8F799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		F26DBF31633B71B2A9442F942936FF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		F2EA91D2B3A7E74AFD79356ED8837DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DA74BA7B3A60EDC6287B4BE79216CE;
+			remoteInfo = agora_rtm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		0C6FF7AC1B440BF716CD5BD529527659 /* agora_rtm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "agora_rtm-dummy.m"; sourceTree = "<group>"; };
+		0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		14084F87B3F6237D59A112A1DFE050AB /* AgoraRtmPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AgoraRtmPlugin.h; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/AgoraRtmPlugin.h"; sourceTree = "<group>"; };
+		263F30FE415BB06EC188A908403AD0D6 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		286A1C1C463C3E7142850584B2E515F0 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		2E022F95546B3C297EE68FECEC735F3A /* agora_rtm.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = agora_rtm.podspec; path = "../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/agora_rtm.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A364D77B29317328F51AED0F9484D68 /* AgoraRtmPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AgoraRtmPlugin.m; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/AgoraRtmPlugin.m"; sourceTree = "<group>"; };
+		520E966CC3C02AEBCC84158FACF6F214 /* agora_rtm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "agora_rtm-prefix.pch"; sourceTree = "<group>"; };
+		55E3B08D520BC83E5E2CD246484B6120 /* RTMClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTMClient.m; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/RTMClient.m"; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCCAD1C88039B40B48C00F9F03E4DAC /* RTMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMClient.h; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/RTMClient.h"; sourceTree = "<group>"; };
+		7C67EB2AD4AF2ACA189C73075B488190 /* RTMChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTMChannel.m; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/RTMChannel.m"; sourceTree = "<group>"; };
+		899746C33472C495EF613649D2FC8254 /* agora_rtm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = agora_rtm.release.xcconfig; sourceTree = "<group>"; };
+		8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		937111174586B0A0FAA9CD3A2C0FC3EC /* agora_rtm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = agora_rtm.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		B9EE64F8FBABCC12FD04886463301B1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
+		C5884E2DED907E2E05DAAA4497DFCEFD /* libagora_rtm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libagora_rtm.a; path = libagora_rtm.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A88C9FEE8F43ACB43BF7AF3119E98F /* AgoraRtm_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtm_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		CC175914011DA41D8A2CA3E4641BEA4D /* RTMChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMChannel.h; path = "../../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios/Classes/RTMChannel.h"; sourceTree = "<group>"; };
+		CEC7E95299923D421BFC4941C54958E2 /* AgoraRtm_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtm_iOS.release.xcconfig; sourceTree = "<group>"; };
+		DA9FB5968D5356587E802C64988E97A7 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0FD2BEA027CDA301A66ECB27EC12731 /* AgoraRtmKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtmKit.framework; sourceTree = "<group>"; };
+		F34D563DDABE1ED8382FFA78FE97B6C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/LICENSE"; sourceTree = "<group>"; };
+		FE4279423DA974987A3EA0A0430FEE7C /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDCD9F3DB6625B92FBD3EC912FD10C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0497C43A95B9D1FDA278D873CCD8BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B300E3082B2D22BE0C4F99EFDA662A /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				F80B27E8196189F90070AE41EFBFC12F /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		01DB3074BD2C935F1527EEC61B041A38 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				2682A262128CFDB8A1FE655BADF6B892 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		040DC61E90DC6F38DB8C8F16D6F5773F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6FF7AC1B440BF716CD5BD529527659 /* agora_rtm-dummy.m */,
+				520E966CC3C02AEBCC84158FACF6F214 /* agora_rtm-prefix.pch */,
+				937111174586B0A0FAA9CD3A2C0FC3EC /* agora_rtm.debug.xcconfig */,
+				899746C33472C495EF613649D2FC8254 /* agora_rtm.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/agora_rtm";
+			sourceTree = "<group>";
+		};
+		0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */,
+				8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */,
+				0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */,
+				0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */,
+				B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */,
+				DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */,
+				E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		0B030329569E82E0ABEAABAD2E3436F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14084F87B3F6237D59A112A1DFE050AB /* AgoraRtmPlugin.h */,
+				3A364D77B29317328F51AED0F9484D68 /* AgoraRtmPlugin.m */,
+				CC175914011DA41D8A2CA3E4641BEA4D /* RTMChannel.h */,
+				7C67EB2AD4AF2ACA189C73075B488190 /* RTMChannel.m */,
+				6DCCAD1C88039B40B48C00F9F03E4DAC /* RTMClient.h */,
+				55E3B08D520BC83E5E2CD246484B6120 /* RTMClient.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		152901223236E1B12DCF04107FEC7221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0FD2BEA027CDA301A66ECB27EC12731 /* AgoraRtmKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19E7F9701990BC84C98B46A15598957E /* Flutter-RTM */ = {
+			isa = PBXGroup;
+			children = (
+				E91BD314ED10EF43E9FCABCFF2F1A40E /* ios */,
+			);
+			name = "Flutter-RTM";
+			path = "Flutter-RTM";
+			sourceTree = "<group>";
+		};
+		1B5861B6CF8A323BF143BBA5E0E860DB /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CB19C717582B491262E356ED3E482D8D /* Desktop */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2682A262128CFDB8A1FE655BADF6B892 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3F770FDE3C2F0D7963AF192DE315324D /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3271F11CE3519D4A4A2C268148A98E3B /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F284FD85667BC75347A2187772F469A3 /* Frameworks */,
+				91E05F38B160EA53ADD9DEFCB73076C5 /* Pod */,
+				4FD81620DD16E34678205941404EA602 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
+			sourceTree = "<group>";
+		};
+		3F770FDE3C2F0D7963AF192DE315324D /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				58BD31C45249484CBA9BC4B34B73542E /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		46A17ECD81C26632D8E65BFD8FD4D885 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				19E7F9701990BC84C98B46A15598957E /* Flutter-RTM */,
+			);
+			name = Projects;
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		4A08FDC5BCBE662FC443FB73BA3BCE3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F50093FBA8EEEB763DA5C6B1AA20ACAA /* AgoraRtm_iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FD81620DD16E34678205941404EA602 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				286A1C1C463C3E7142850584B2E515F0 /* Flutter.debug.xcconfig */,
+				FE4279423DA974987A3EA0A0430FEE7C /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		533AF9F2AD163F24D19B9BFBE789E091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5884E2DED907E2E05DAAA4497DFCEFD /* libagora_rtm.a */,
+				669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58BD31C45249484CBA9BC4B34B73542E /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1B5861B6CF8A323BF143BBA5E0E860DB /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63BD7678325DEBFDA15FA5EA9DA16973 /* agora_rtm */ = {
+			isa = PBXGroup;
+			children = (
+				B9A03427BF45D8601867350D49E8D2BA /* .. */,
+				AF1FEFCA714C40B2690089349F23B2A8 /* Pod */,
+				040DC61E90DC6F38DB8C8F16D6F5773F /* Support Files */,
+			);
+			name = agora_rtm;
+			path = ../.symlinks/plugins/agora_rtm/ios;
+			sourceTree = "<group>";
+		};
+		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7EA11AB8A5045643A083A790304BCC37 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				01DB3074BD2C935F1527EEC61B041A38 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8EE13658AE4F302E988BD23BE2100F57 /* agora_rtm */ = {
+			isa = PBXGroup;
+			children = (
+				B3C465398DA426576912FABA7321B53D /* ios */,
+			);
+			name = agora_rtm;
+			path = agora_rtm;
+			sourceTree = "<group>";
+		};
+		91E05F38B160EA53ADD9DEFCB73076C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				263F30FE415BB06EC188A908403AD0D6 /* Flutter.podspec */,
+				B9EE64F8FBABCC12FD04886463301B1F /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF1FEFCA714C40B2690089349F23B2A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E022F95546B3C297EE68FECEC735F3A /* agora_rtm.podspec */,
+				F34D563DDABE1ED8382FFA78FE97B6C7 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3C465398DA426576912FABA7321B53D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				0B030329569E82E0ABEAABAD2E3436F5 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		B75E49E83C02F31005A0CA47F9C17ADE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63BD7678325DEBFDA15FA5EA9DA16973 /* agora_rtm */,
+				3271F11CE3519D4A4A2C268148A98E3B /* Flutter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9A03427BF45D8601867350D49E8D2BA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				7EA11AB8A5045643A083A790304BCC37 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtm-0.9.10/ios";
+			sourceTree = "<group>";
+		};
+		CB19C717582B491262E356ED3E482D8D /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				46A17ECD81C26632D8E65BFD8FD4D885 /* Projects */,
+			);
+			name = Desktop;
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B75E49E83C02F31005A0CA47F9C17ADE /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4A08FDC5BCBE662FC443FB73BA3BCE3D /* Pods */,
+				533AF9F2AD163F24D19B9BFBE789E091 /* Products */,
+				6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2ECA4A18250CE503A8546223A48D53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A88C9FEE8F43ACB43BF7AF3119E98F /* AgoraRtm_iOS.debug.xcconfig */,
+				CEC7E95299923D421BFC4941C54958E2 /* AgoraRtm_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraRtm_iOS";
+			sourceTree = "<group>";
+		};
+		E91BD314ED10EF43E9FCABCFF2F1A40E /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				01B300E3082B2D22BE0C4F99EFDA662A /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		F284FD85667BC75347A2187772F469A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9FB5968D5356587E802C64988E97A7 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50093FBA8EEEB763DA5C6B1AA20ACAA /* AgoraRtm_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				152901223236E1B12DCF04107FEC7221 /* Frameworks */,
+				DE2ECA4A18250CE503A8546223A48D53 /* Support Files */,
+			);
+			name = AgoraRtm_iOS;
+			path = AgoraRtm_iOS;
+			sourceTree = "<group>";
+		};
+		F80B27E8196189F90070AE41EFBFC12F /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8EE13658AE4F302E988BD23BE2100F57 /* agora_rtm */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15CE7204EAB4B25230F4AD79E56E0725 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676EFBC564F16710C5AD92DAF25AE158 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5348CD7C0D4651170CCE7A6DEE45576 /* AgoraRtmPlugin.h in Headers */,
+				EE8D8E1AB0F1E42B20B26E0B16D68AD8 /* RTMChannel.h in Headers */,
+				F7E4C5665B2B93EF3582D62B081D0F9A /* RTMClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8738CF3B3AEF2051772726A916E251 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				15CE7204EAB4B25230F4AD79E56E0725 /* Headers */,
+				DEC13FD5EEF07F07504254A85342BBD7 /* Sources */,
+				BBDCD9F3DB6625B92FBD3EC912FD10C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3F395F1DB9C54D5A25B89B8E44CBA4 /* PBXTargetDependency */,
+				D660B065080E1E804F3DDB4D136443E6 /* PBXTargetDependency */,
+				E28C1A3E042A5F283FCEFCACFF84FB76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3DA74BA7B3A60EDC6287B4BE79216CE /* agora_rtm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC4C14272B034856D60EDDC9AF8001F /* Build configuration list for PBXNativeTarget "agora_rtm" */;
+			buildPhases = (
+				676EFBC564F16710C5AD92DAF25AE158 /* Headers */,
+				BCC86478A3AE09186562E5E2AA9307EC /* Sources */,
+				C0497C43A95B9D1FDA278D873CCD8BA9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC4BF6228872B7EBE08F5BAA2C106F7 /* PBXTargetDependency */,
+				45B01376E4FB0C7E6D74B806A9AB109A /* PBXTargetDependency */,
+			);
+			name = agora_rtm;
+			productName = agora_rtm;
+			productReference = C5884E2DED907E2E05DAAA4497DFCEFD /* libagora_rtm.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 533AF9F2AD163F24D19B9BFBE789E091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DA74BA7B3A60EDC6287B4BE79216CE /* agora_rtm */,
+				C749B96AD7CBE862709769C59C7DF18E /* AgoraRtm_iOS */,
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC86478A3AE09186562E5E2AA9307EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C2514870F0D468AD86C4AA2A5C3677 /* agora_rtm-dummy.m in Sources */,
+				3DA403FB11CEAC59F04EBBC5C45CF568 /* AgoraRtmPlugin.m in Sources */,
+				40C6A08006924454F13BF30AAC822A88 /* RTMChannel.m in Sources */,
+				9483D47FF6CCBAD245ABF0492FDEDDDC /* RTMClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC13FD5EEF07F07504254A85342BBD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39FB8D8FAA2AFA9E35632C0EEE747D5 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EC4BF6228872B7EBE08F5BAA2C106F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtm_iOS;
+			target = C749B96AD7CBE862709769C59C7DF18E /* AgoraRtm_iOS */;
+			targetProxy = 1301E3B96230160D3F118C202ACEC216 /* PBXContainerItemProxy */;
+		};
+		45B01376E4FB0C7E6D74B806A9AB109A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = D55EE32341356720D32691D51BD8F799 /* PBXContainerItemProxy */;
+		};
+		AA3F395F1DB9C54D5A25B89B8E44CBA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtm_iOS;
+			target = C749B96AD7CBE862709769C59C7DF18E /* AgoraRtm_iOS */;
+			targetProxy = 97057319E9E5B9A396FCA4F2EDFD4D71 /* PBXContainerItemProxy */;
+		};
+		D660B065080E1E804F3DDB4D136443E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = F26DBF31633B71B2A9442F942936FF54 /* PBXContainerItemProxy */;
+		};
+		E28C1A3E042A5F283FCEFCACFF84FB76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = agora_rtm;
+			target = F3DA74BA7B3A60EDC6287B4BE79216CE /* agora_rtm */;
+			targetProxy = F2EA91D2B3A7E74AFD79356ED8837DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BBA247B533EAA6740BFE1D278ACD4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC7E95299923D421BFC4941C54958E2 /* AgoraRtm_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3174EE078798473437DCC621C2A55C48 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC7E95299923D421BFC4941C54958E2 /* AgoraRtm_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		352472D9C0BF916CA06CD66D7F3465A1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4279423DA974987A3EA0A0430FEE7C /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		507FC4B296D35694C024A0E3E6D8CC53 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		5EC03DDA0E2B0DE27730D2188B3C30E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6452882BDFD2FE777AA09F36E4D179B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937111174586B0A0FAA9CD3A2C0FC3EC /* agora_rtm.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/agora_rtm/agora_rtm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = agora_rtm;
+				PRODUCT_NAME = agora_rtm;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB88287FBF0DDC642169D4FE56485F2 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		7E4C9BBF9DBAFC4E4F24FD56F771984B /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899746C33472C495EF613649D2FC8254 /* agora_rtm.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/agora_rtm/agora_rtm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = agora_rtm;
+				PRODUCT_NAME = agora_rtm;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		821282DBF70E9F1801BE386A613C059F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899746C33472C495EF613649D2FC8254 /* agora_rtm.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/agora_rtm/agora_rtm-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = agora_rtm;
+				PRODUCT_NAME = agora_rtm;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61138F34FDEA196B7E17C45338192EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4279423DA974987A3EA0A0430FEE7C /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED6DED1327749368792BD459A52B973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A88C9FEE8F43ACB43BF7AF3119E98F /* AgoraRtm_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D34CD6D598ABE6106DAE67F2C4CA4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D865F451DBED2657D8C1644047E1D987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286A1C1C463C3E7142850584B2E515F0 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC4C14272B034856D60EDDC9AF8001F /* Build configuration list for PBXNativeTarget "agora_rtm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6452882BDFD2FE777AA09F36E4D179B8 /* Debug */,
+				7E4C9BBF9DBAFC4E4F24FD56F771984B /* Profile */,
+				821282DBF70E9F1801BE386A613C059F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D84E124B699E08ACDD84DC4828523EA /* Build configuration list for PBXAggregateTarget "AgoraRtm_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED6DED1327749368792BD459A52B973 /* Debug */,
+				3174EE078798473437DCC621C2A55C48 /* Profile */,
+				2BBA247B533EAA6740BFE1D278ACD4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				6DB88287FBF0DDC642169D4FE56485F2 /* Profile */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8738CF3B3AEF2051772726A916E251 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC03DDA0E2B0DE27730D2188B3C30E2 /* Debug */,
+				507FC4B296D35694C024A0E3E6D8CC53 /* Profile */,
+				B2D34CD6D598ABE6106DAE67F2C4CA4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F451DBED2657D8C1644047E1D987 /* Debug */,
+				352472D9C0BF916CA06CD66D7F3465A1 /* Profile */,
+				A61138F34FDEA196B7E17C45338192EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
